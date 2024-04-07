@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h2>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          "Crafting Intelligent Solutions for Production: Olamide (David) Oluwamusiwa Portfolio"
           </p>
           <div>
             <Link

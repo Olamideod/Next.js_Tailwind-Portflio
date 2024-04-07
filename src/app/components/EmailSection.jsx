@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
-import InstagramIcon from "../../../public/Instagram-icon.svg";
-import TwitterIcon from "../../../public/Twitter-icon.svg"
+import LinkedinIcon from "../../../public/linkedin-icon.svg"
 import Image from "next/image";
+import Link from 'next/link';
+
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -62,12 +62,6 @@ const EmailSection = () => {
           </Link>
           <Link href="https://www.linkedin.com/in/olamide-oluwamusiwa-17b62827a/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link>
-          <Link href="https://www.instagram.com/oamide_ai_lart/">
-            <Image src={InstagramIcon} alt="Instagram Icon" />
-          </Link>
-          <Link href="https://twitter.com/OOluwamusi75869">
-            <Image src={TwitterIcon} alt="Twitter Icon" />
           </Link>
         </div>
       </div>
