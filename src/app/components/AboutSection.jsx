@@ -20,8 +20,6 @@ const TAB_DATA = [
   <li style={{ marginBottom: "0.7rem", fontWeight: "bold" }}><span style={{ color: 'purple', fontWeight: "bold" }}>Communication:</span> <span style={{ fontWeight: "normal" }}>Strong communication skills to collaborate with team members, explain technical concepts to non-technical stakeholders, and document work effectively.</span></li>
   <li style={{ marginBottom: "0.7rem", fontWeight: "bold" }}><span style={{ color: 'purple', fontWeight: "bold" }}>Continuous Learning:</span> <span style={{ fontWeight: "normal" }}>Willingness to stay updated with the latest trends, technologies, and best practices in AI, data science, Machine Learning web development, and software engineering.</span></li>
 </ul>
-
-
     ),
   },
   {
@@ -60,7 +58,7 @@ const AboutSection = () => {
     <section className="text-blue" id="about">
       <div className="md:grid md:grid-cols-2 gap-10 items-top py-2 px-2 xl:gap-12 sm:py-16 xl:px-8">
         <Image src="/images/about-image.png" alt="Description of the image" width={1200} height={1500} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full"> 
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="list-disc pl-2" style={{ lineHeight: "1.5", fontFamily: 'Georgia, serif'  }}>
             I am Olamide (David) Oluwamusiwa, a dedicated full-stack software engineer with a passion for AI and data science. I excel in programming and AI techniques, with experience in building web development projects, machine learning, and software development. Additionally, I have expertise in integrating AI into my software and web projects, aiming to create intelligent systems that solve real-world problems. With my interdisciplinary background, I aspire to push the boundaries of technology and shape a future where intelligent machines enhance the human experience.
