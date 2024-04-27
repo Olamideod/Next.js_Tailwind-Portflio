@@ -66,7 +66,7 @@ const projectsData = [
     image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Olamideod/Next.js_Tailwind-Portflio",
-    previewUrl: "olamide-portflio.vercel.app",
+    previewUrl: "https://olamide-portflio.vercel.app",
   },
   {
     id: 8,
