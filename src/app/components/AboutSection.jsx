@@ -28,7 +28,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Ondo State University Of Science and Technology, Okitipupa</li>
-        <li>Holberton School</li>
+        <li>Holberton School/ALX - Software Engineering</li>
       </ul>
     ),
   },
@@ -37,8 +37,29 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Technical Trainer at Ondo State University of Science and Technology, Okitipupa · Self-employed</li>
+        <li>AI/ML Team Lead Google Developer Student Clubs · Part-time</li>
+        <li>Software Engineer - The Room </li>
+        <li>Software Engineer Intern - alx_africa </li>
+        <li>IT Specialist at Network Oil and Gas Limited · Part-time</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Experience",
+    id: "Experience",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>
+        <a href="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/3453627/original/Olamide_David_Oluwamusiwa20231004-74-4jiql9.jpg" className="text-blue-500 hover:underline">
+          Certificate of Completion - Basic of Machine Learning
+        </a>
+      </li>
+      <li>
+        <a href="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/3449344/original/Olamide_David_Oluwamusiwa20231003-74-3rpt5n.jpg" className="text-blue-500 hover:underline">
+          Certificate of Completion - Introduction to Artificial Intelligence
+        </a>
+      </li>
       </ul>
     ),
   },
@@ -81,6 +102,13 @@ const AboutSection = () => {
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
+            >
+              {" "}
+              Experience{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("Experience")}
+              active={tab === ""}
             >
               {" "}
               Certifications{" "}
