@@ -11,8 +11,8 @@ const projectsData = [
     description: "HarmoniFi is a music recommendation web app powered by Flask for backend development and Next.js for the frontend. Flask handles routing, API endpoints, and recommendation logic, while Next.js renders UI components using React. The recommendation system utilizes scikit-learn for machine learning tasks. The app emphasizes seamless integration between backend and frontend, delivering a smooth user experience without the need for a database.",
     image: "/images/projects/1.png",
     tag: ["All", "Web", "AI/ML"],
-    gitUrl: "https://github.com/Olamideod/HarmoniFi_AI_Powered_Music-App",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Olamideod/HarmoniFi-AI-Integeration",
+    previewUrl: "https://www.linkedin.com/posts/olamide-oluwamusiwa-17b62827a_alxse-softwaredevelopers-aispecialist-activity-7184453371905335296-_mt4?utm_source=share&utm_medium=member_ios",
   },
   {
     id: 2,
@@ -66,7 +66,7 @@ const projectsData = [
     image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Olamideod/Next.js_Tailwind-Portflio",
-    previewUrl: "olamide-portflio.vercel.app",
+    previewUrl: "https://olamide-portflio.vercel.app",
   },
   {
     id: 8,
