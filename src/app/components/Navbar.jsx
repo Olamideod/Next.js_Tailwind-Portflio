@@ -29,7 +29,7 @@ const Navbar = () => {
           <img
             src="https://i.ibb.co/M2Rrcnm/alx.png"
             alt="Alx-logo"
-            className="h-20 md:h-30"
+            className="h-10 md:h-14"
           />
         </a>
         <div className="mobile-menu block md:hidden">
