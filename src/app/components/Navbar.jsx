@@ -27,8 +27,8 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <a href="/">
           <img
-            src="https://i.ibb.co/M2Rrcnm/alx.png"
-            alt="Alx-logo"
+            src="https://i.ibb.co/xFmzLXT/Codebender-logo.png"
+            alt="Logo"
             className="h-10 md:h-14"
           />
         </a>
