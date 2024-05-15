@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/1.png",
     tag: ["All", "Web", "AI/ML"],
     gitUrl: "https://github.com/Olamideod/HarmoniFi-AI-Integeration",
-    previewUrl: "https://www.linkedin.com/posts/olamide-oluwamusiwa-17b62827a_alxse-softwaredevelopers-aispecialist-activity-7184453371905335296-_mt4?utm_source=share&utm_medium=member_ios",
+    previewUrl: "https://youtu.be/KZeT0itgB1o?feature=shared",
   },
   {
     id: 2,
